@@ -11,7 +11,7 @@ Moreover, based on a study of Kontopoulos, Patmanidis, Barraclough, and Pawar (2
 
 Studies report temperature rises have made mutations increasingly deleterious  (Guo et al., 1996; Dieterle et al., 2010; Ndo et al., 2018 as cited in Kontopoulos et al., 2020), which is typically hypothesized to be due to the decline in protein stability at elevated temperatures (Puurtinen et al., 2016 as cited in Kontopoulos et al., 2020; Berger et al, 2020). Under this view, ΔΔG is assumed to be constant and independent of temperature, where it is known as the temperature-invariant ΔΔG hypothesis.
 
-Our study shall challenge this assumption, using empirical data across of Dieterle et al. (2010) which has a diverse set of proteins to investigate whether mutation-induced changes in protein stability (ΔΔG) vary with temperature. With our project, we aim to test the validity of the temperature-invariant ΔΔG hypothesis and explore the possibility of the effect of mutations on protein stability being temperature-dependent.
+Our study shall challenge this assumption, using empirical data across of Dehouck et al. (2011) which has a diverse set of proteins to investigate whether mutation-induced changes in protein stability (ΔΔG) vary with temperature. With our project, we aim to test the validity of the temperature-invariant ΔΔG hypothesis and explore the possibility of the effect of mutations on protein stability being temperature-dependent.
 
 Given the known thermodynamic sensitivity of proteins, that mutations may become more destabilizing at higher temperatures, there is a critical need to reassess this assumption. This study addresses this gap by statistically modeling ΔΔG as a function of temperature across a diverse dataset of protein mutations, aiming to reveal whether mutation effects on protein stability are indeed temperature-dependent.
 
@@ -19,7 +19,7 @@ References:
 
 Berger, D., Stångberg, J., Baur, J., & Walters, R. J. (2020). Elevated temperature increases genome-wide selection on de novo mutations. bioRxiv. https://doi.org/10.1101/2020.10.13.337972
 
-Dehouck Y, Kwasigroch JM, Gilis D, Rooman M. PoPMuSiC 2.1: a web server for the estimation of protein stability changes upon mutation and sequence optimality. BMC Bioinformatics. 2011 May 13;12:151. doi: 10.1186/1471-2105-12-151. PMID: 21569468; PMCID: PMC3113940.
+Dehouck, Y., Kwasigroch, J. M., Gilis, D., & Rooman, M. (2011). PoPMuSiC 2.1: a web server for the estimation of protein stability changes upon mutation and sequence optimality. BMC bioinformatics, 12, 151. https://doi.org/10.1186/1471-2105-12-151
 
 Dieterle, M. G., Wiest, A. E., Plamann, M., & McCluskey, K. (2010). Characterization of the temperature-sensitive mutations un-7 and png-1 in Neurospora crassa. PLoS ONE, 5(5), e10703. https://doi.org/10.1371/journal.pone.0010703
 
