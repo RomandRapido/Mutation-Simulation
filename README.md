@@ -16,8 +16,11 @@ Our study shall challenge this assumption, using empirical data of Dehouck et al
 Given the known thermodynamic sensitivity of proteins, that mutations may become more destabilizing at higher temperatures, there is a critical need to reassess this assumption. This study addresses this gap by statistically modeling ΔΔG as a function of temperature across a diverse dataset of protein mutations, aiming to reveal whether mutation effects on protein stability are indeed temperature-dependent.
 ---
 Links:
+
 [Bootstrap & Jacknife](https://colab.research.google.com/drive/1_lU8wqN5WjTKGDeIJ1uQctmn9EhdbO3X?usp=sharing)
+
 [Resampling For Model Validation](https://colab.research.google.com/github/RomandRapido/Mutation-Simulation/blob/main/Resampling_for_Model_Validation.ipynb)
+
 [Probability Density Estimate](https://colab.research.google.com/drive/1csVdBVHHj1WSCnt__5frlS9Ay43HLn0K#scrollTo=y74F9ZZa3z6j)
 ---
 References:
