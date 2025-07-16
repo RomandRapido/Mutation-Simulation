@@ -14,7 +14,12 @@ Studies report temperature rises have made mutations increasingly deleterious  (
 Our study shall challenge this assumption, using empirical data of Dehouck et al. (2011) which has a diverse set of proteins to investigate whether mutation-induced changes in protein stability (ΔΔG) vary with temperature. With our project, we aim to test the validity of the temperature-invariant ΔΔG hypothesis and explore the possibility of the effect of mutations on protein stability being temperature-dependent.
 
 Given the known thermodynamic sensitivity of proteins, that mutations may become more destabilizing at higher temperatures, there is a critical need to reassess this assumption. This study addresses this gap by statistically modeling ΔΔG as a function of temperature across a diverse dataset of protein mutations, aiming to reveal whether mutation effects on protein stability are indeed temperature-dependent.
+---
+Links:
+[Bootstrap & Jacknife](https://colab.research.google.com/drive/1_lU8wqN5WjTKGDeIJ1uQctmn9EhdbO3X?usp=sharing)
 
+[Probability Density Estimate](https://colab.research.google.com/drive/1csVdBVHHj1WSCnt__5frlS9Ay43HLn0K#scrollTo=y74F9ZZa3z6j)
+---
 References:
 
 Berger, D., Stångberg, J., Baur, J., & Walters, R. J. (2020). Elevated temperature increases genome-wide selection on de novo mutations. bioRxiv. https://doi.org/10.1101/2020.10.13.337972
@@ -28,4 +33,5 @@ Guo, Q., Penman, M., Trigatti, B. L., & Krieger, M. (1996). A single point mutat
 Kontopoulos, D.-G., Patmanidis, I., Barraclough, T. G., & Pawar, S. (2020). Higher temperatures worsen the effects of mutations on protein stability. bioRxiv. https://doi.org/10.1101/2020.10.13.337972
 
 Singh, D. B., & Tripathi, T. (2023). Protein-based therapeutics (1st ed.). Springer Singapore. https://doi.org/10.1007/978-981-19-8249-1
+
 
