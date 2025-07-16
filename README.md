@@ -17,7 +17,7 @@ Given the known thermodynamic sensitivity of proteins, that mutations may become
 ---
 Links:
 [Bootstrap & Jacknife](https://colab.research.google.com/drive/1_lU8wqN5WjTKGDeIJ1uQctmn9EhdbO3X?usp=sharing)
-
+[Resampling For Model Validation](https://colab.research.google.com/github/RomandRapido/Mutation-Simulation/blob/main/Resampling_for_Model_Validation.ipynb)
 [Probability Density Estimate](https://colab.research.google.com/drive/1csVdBVHHj1WSCnt__5frlS9Ay43HLn0K#scrollTo=y74F9ZZa3z6j)
 ---
 References:
