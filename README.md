@@ -1,6 +1,7 @@
-# SA2-Statistical-Computing
-Romand Lansangan, Jinghua Yang, and Zion Ramilo
+# Simulating Biological Mutation Stability: A Statistical and Mathematical Perspective on Genetic Modifications
+#### By: Romand Lansangan, Jinghua Yang, and Zion Ramilo
 
+## Introduction/Problem Statement
 Protein-based therapeutics constitute an important class of drugs used for the treatment of multiple diseases, including cancers, genetic disorders, autoimmune diseases, and infectious diseases. Based on Singh and Tripathi (2023), the global market and demand for therapeutic proteins are increasing rapidly, but the manufacturing and production of protein-based therapeutics are highly complex processes. Singh and Tripathi (2023) have attributed the critical challenge that protein-based therapeutics have to the poor membrane permeability, poor in vivo stability, and short half-life. 
 
 These limitations stem largely from the intrinsic sensitivity of proteins to environmental conditions such as temperature, pH, and enzymatic degradation. In particular, elevated or fluctuating temperatures can lead to misfolding, aggregation, or denaturation, ultimately reducing drug efficacy and shelf life.
@@ -14,14 +15,45 @@ Studies report temperature rises have made mutations increasingly deleterious  (
 Our study shall challenge this assumption, using empirical data of Dehouck et al. (2011) which has a diverse set of proteins to investigate whether mutation-induced changes in protein stability (ΔΔG) vary with temperature. With our project, we aim to test the validity of the temperature-invariant ΔΔG hypothesis and explore the possibility of the effect of mutations on protein stability being temperature-dependent.
 
 Given the known thermodynamic sensitivity of proteins, that mutations may become more destabilizing at higher temperatures, there is a critical need to reassess this assumption. This study addresses this gap by statistically modeling ΔΔG as a function of temperature across a diverse dataset of protein mutations, aiming to reveal whether mutation effects on protein stability are indeed temperature-dependent.
+
+## [Probability Density Estimate](https://colab.research.google.com/drive/1csVdBVHHj1WSCnt__5frlS9Ay43HLn0K#scrollTo=y74F9ZZa3z6j)
+A quick data exploration through Probability Density Estimate was done to provide a quick visual estimate against the temperature-invariant ΔΔG hypothesis.
+
+**Key Finding: The exploratory analysis provides strong visual evidence against the temperature-invariant ΔΔG hypothesis.**
+
+The PDE reveals that mutation-induced stability changes (ΔΔG) are indeed temperature-dependent:
+
+1. **Temperature-dependent shift in mutation effects**:
+    - Low/Medium temperatures ($\leq$ 42°C): Mutations are predominantly stabilizing (median ΔΔG = -0.995 kcal/mol)
+    - High temperatures (42-60°C): Mutations shift toward neutral (median ΔΔG = -0.130 kcal/mol)
+    - Very High temperatures (>60°C): Mutations remain near-neutral (median ΔΔG = -0.290 kcal/mol)
+2. **Clear rightward shift**: the distribution of  ΔΔG shifts from stabilizing region (negative values) towards a more neutral region (zero) as temperature increase. This provides an avenue to confirm that mutations become increasingly destabilizing at elevated temperatures.   
+3. **Non-linear relationship**: The effect is not simply linear. This suggests a complex interactions that warrant sophisticated statistical modeling beyond simple linear assumptions.
+4. **Reduced variability at high temperatures**: The narrowing of ΔΔG distributions at very high temperatures indicates that extreme conditions constrain the range of mutational effects.
+
+**Implications**: These findings directly challenge the temperature-invariant ΔΔG hypothesis and support the need for temperature-dependent models when designing stable protein therapeutics, particularly for applications involving temperature fluctuations or storage at elevated temperatures.
+
+**Limitations**: The methodologies used are mere estimations and calls further and rigorous statistical analysis before concluding anything.
+
+## Permutation Test
+I'm thinking of putting it here since it could also be one of the EDAs.
+
+## Bayesian
+I'm not sure about Bayesia. May its a post/pre test or something.
+
+## [Bootstrap & Jacknife](https://colab.research.google.com/drive/1_lU8wqN5WjTKGDeIJ1uQctmn9EhdbO3X?usp=sharing)
+Primary Test
+
+### [Resampling For Model Validation](https://colab.research.google.com/github/RomandRapido/Mutation-Simulation/blob/main/Resampling_for_Model_Validation.ipynb)
+Evaluation
+
 ---
 Links:
 
-[Bootstrap & Jacknife](https://colab.research.google.com/drive/1_lU8wqN5WjTKGDeIJ1uQctmn9EhdbO3X?usp=sharing)
 
-[Resampling For Model Validation](https://colab.research.google.com/github/RomandRapido/Mutation-Simulation/blob/main/Resampling_for_Model_Validation.ipynb)
 
-[Probability Density Estimate](https://colab.research.google.com/drive/1csVdBVHHj1WSCnt__5frlS9Ay43HLn0K#scrollTo=y74F9ZZa3z6j)
+
+
 ---
 References:
 
