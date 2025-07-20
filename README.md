@@ -1,5 +1,8 @@
 # Simulating Biological Mutation Stability: A Statistical and Mathematical Perspective on Genetic Modifications
-#### By: Romand Lansangan, Jinghua Yang, and Zion Ramilo
+#### By: 
+1. Romand Lansangan - Probability Density Estimation and Summary/Narative Report
+2. Jinghua Yang - Bootstrap & Jacknife and Resampling For Model Validation
+3. Zion Ramilo - Introduction/Problem Statement and MCMC for Bayesian Inference and Permutation Test
 
 ## Introduction/Problem Statement
 Protein-based therapeutics constitute an important class of drugs used for the treatment of multiple diseases, including cancers, genetic disorders, autoimmune diseases, and infectious diseases. Based on Singh and Tripathi (2023), the global market and demand for therapeutic proteins are increasing rapidly, but the manufacturing and production of protein-based therapeutics are highly complex processes. Singh and Tripathi (2023) have attributed the critical challenge that protein-based therapeutics have to the poor membrane permeability, poor in vivo stability, and short half-life. 
@@ -56,8 +59,8 @@ The permutation test conducted confirms what the PDE analysis suggested  and val
 
 **Limitations**:
 The protein specific analysis revealed the different proteins react differently with temperature. This suggest a need for a more sophisticated modeling approaches.
-## [Bayesian Linear Regression](https://colab.research.google.com/drive/1fyQaSPhiudw_dG-lFn_dJM32gbDDPkNc?usp=sharing)
-To address the potential concerns about classical hypothesis testing, the Bayesian approach with "Bayesian Regression Models" was implement.
+## [MCMC for Bayesian Inference](https://colab.research.google.com/drive/1fyQaSPhiudw_dG-lFn_dJM32gbDDPkNc?usp=sharing)
+To address the potential concerns about classical hypothesis testing, the MCMC Bayesian approach with "Bayesian Regression Models" was implemented.
 
 **Key Finding: Even with skeptical priors, the Bayesian analysis provided a robust evidence against the temperature-invariant**
 1. **Significant temperature effect despite restrictive priors**:
